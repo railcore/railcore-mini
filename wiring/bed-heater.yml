@@ -1,0 +1,59 @@
+connectors:
+  X1:
+    type: NTC 100K thermistor, 3950K
+    subtype: female
+    pinlabels: [Thermistor, Thermistor]
+  X2:
+    type: Dupont 2-pin female
+    subtype: female
+    pinlabels: [Thermistor, Thermistor]
+    notes: "Label: Temp_2"
+
+
+  X3:
+    type: 125w Silicone Heater
+    pinlabels: [Heater, Heater]
+
+  X4:
+    pinlabels: [Duet Bed]
+    type: M4 Ring Terminal
+    subtype: insulated
+
+  X5:
+    pinlabels: [Duet Bed]
+    type: M4 Ring Terminal
+    subtype: insulated
+
+
+cables:
+  W1:
+    category: bundle # bundle
+    length: 0.5
+    gauge: 24 AWG
+    colors: [RD, RD] # custom colors, wirecount is implicit
+  W2:
+    category: bundle # bundle
+    length: 0.5
+    gauge: 16 AWG
+    colors: [WH] # custom colors, wirecount is implicit
+  W3:
+    category: bundle # bundle
+    length: 0.5
+    gauge: 16 AWG
+    colors: [WH] # custom colors, wirecount is implicit
+
+
+connections:
+  - # attach ferrules
+    - X1: [1,2]
+    - W1: [1,2]
+    - X2: [1,2]
+
+  - # attach ferrules
+    - X3: [1]
+    - W2: [1]
+    - X4: 1
+  - # attach ferrules
+    - X3: [2]
+    - W3: [1]
+    - X5: [1]
