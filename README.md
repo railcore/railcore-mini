@@ -24,7 +24,7 @@ The BOM is hosted on [Google Sheets](https://docs.google.com/spreadsheets/d/1TM1
 
 Documentation for building your own RailCore® Mini can be found on [railcore.dozuki.com](https://railcore.dozuki.com/c/RailCore%C2%AE_Mini_Kit). If you need assistance with your build, a strong community of support is available on our Discord server.
 
-![Discord Shield](https://discordapp.com/api/guilds/546187906033909790/widget.png?style=banner2)
+[![Discord Shield](https://discordapp.com/api/guilds/546187906033909790/widget.png?style=banner2)](https://discord.gg/w2ccNBMC)
 
 **A special thanks to Filastruder, Duet3d, E3D, 713Maker, and Mandala Roseworks for supporting the project.**
 
