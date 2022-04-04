@@ -28,4 +28,6 @@ Documentation for building your own RailCore® Mini can be found on [railcore.do
 
 **A special thanks to Filastruder, Duet3d, E3D, 713Maker, and Mandala Roseworks for supporting the project.**
 
+Thanks to Project R3d for components donated in the early beta process of the RailCore Mini.
+
 *RailCore® is a registered trademark of RailCore Labs, LLC.*
