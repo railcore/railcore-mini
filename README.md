@@ -1,6 +1,6 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 # RailCore® Mini
-The RailCore® Mini is a CoreXY-based RepRap 3D printer designed by J. Steve White and Tony Akens and published under the CC Attribution Only license.
+The RailCore® Mini is a CoreXY-based RepRap 3D printer designed by J. Steve White and Tony Akens and published under the CC Attribution International license.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/94552327/161178729-c2a19059-97fb-4032-9111-7a93eba4f258.png" width="300">
