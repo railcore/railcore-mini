@@ -20,7 +20,7 @@ M569 P3 S0 D3					;Drive 3 Z Rear Right
 M569 P4 S0 D3					;Drive 4 Z Left
 M569 P5 S1 D3					;Drive 5 Y / Front
 M569 P6 S0 D3					;Drive 6 X / Rear
-M667 S1						    ;corexy mode
+M669 K1						    ;corexy mode (M667 was removed in RRF 3.5)
 
 M584 X6 Y5 Z4:3:2 E0	;Map X to drive 6 Y to drive 5 Z to drives 2, 3, 4, and E to drive 0
 
